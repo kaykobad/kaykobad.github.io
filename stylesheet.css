@@ -33,6 +33,14 @@ venue {
   /* color: #f85151 */
 }
 
+submitted {
+  font-size: 14px;
+  font-weight: bold;
+  /* color: #01796F */
+  color: #3498db
+  /* color: #f85151 */
+}
+
 tdlr {
   font-style: italic;
 }
