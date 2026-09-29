@@ -28,6 +28,10 @@
   <meta name="twitter:title" content="Publications – Md Kaykobad Reza">
   <meta name="twitter:description" content="Publications by Md Kaykobad Reza on multimodal machine learning, missing-modality robustness, multimodal LLMs, and computer vision, with links to papers, code, and BibTeX.">
   <meta name="twitter:image" content="https://kaykobad.github.io/figs/reza-circle.png">
+  <meta name="color-scheme" content="light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <script type="text/javascript" src="script.js" defer></script>
 </head>
@@ -50,12 +54,13 @@
 
 
               <div class='o-grid__col o-grid__col--2-4-s'>
-                <div class='c-logo u-text-right'>
-                  <a href='publications.html'><i>Publications</i></a> &nbsp; / &nbsp;
-                  <a href='projects.html'><i>Projects</i></a> &nbsp; / &nbsp;
-                  <a href='about-me.html'><i>About Me</i></a> &nbsp; / &nbsp;
-                  <a href="files/Md_Kaykobad_Reza_Resume.pdf" class="image fit" target="_blank"><i>CV</i></a>
-                </div>
+                <nav class='site-nav' aria-label='Main'>
+                  <a href='publications.html' aria-current="page">Publications</a>
+                  <a href='projects.html'>Projects</a>
+                  <a href='about-me.html'>About</a>
+                  <a href="files/Md_Kaykobad_Reza_Resume.pdf" target="_blank">CV</a>
+                  <a href="https://kaykobadreza.com/" target="_blank" rel="noopener">Blog</a>
+                </nav>
               </div>
             </div>
 
@@ -72,8 +77,8 @@
       <!-- <article class='c-post'> -->
         <h1 class='c-post__title u-text-center'>Publications</h1>
 
-        <div style="border-left: 4px solid #4285f4; background: #f0f6ff; padding: 12px 16px; margin: 16px 0; border-radius: 4px;">
-          For the most recent and complete list of publications, please visit my
+        <div class="callout">
+          For the most recent and complete list of publications, visit my
           <u><a href="https://scholar.google.com/citations?user=GgXLwMsAAAAJ&amp;hl=en" target="_blank">Google Scholar profile</a></u>.
         </div>
 
@@ -88,14 +93,14 @@
             <span class="tldr summary">Proposed Modality Self-Play (MSP), a framework that enables zero-shot multimodal composition in multimodal LLMs using proxy textual descriptions and learned bridges, without requiring paired cross-modal non-text training data.</span><br>
             <span class="venue">Conference on Neural Information Processing Systems (NeurIPS), 2026</span><br>
             <!-- <span class="submitted">Under Review</span><br> -->
-            <div>
+            <div class="paper-links">
               <a href="https://neurips.cc/virtual/2026/poster/150756" class="resource" target="_blank">NeurIPS 2026</a>  
-              <!-- <a href="https://2025.ieeeicip.org/tutorials/#:~:text=Tutorial%209%3A%20(Half%2DDay)%20Foundations%20and%20Recent%20Trends%20in%20Robust%20Multimodal%20Learning" target="_blank">IEEE ICIP 2025 Website</a>  -->
+              <!-- <a href="https://2025.ieeeicip.org/tutorials/#:~:text=Tutorial%209%3A%20(Half%2DDay)%20Foundations%20and%20Recent%20Trends%20in%20Robust%20Multimodal%20Learning" class="resource" target="_blank">IEEE ICIP 2025 Website</a>  -->
               <!-- <a href="https://github.com/CSIPlab/Robust-multimodal-learning" class="resource" target="_blank">GitHub</a> /  -->
               <!-- <a href="https://csiplab.github.io/Missing-Modality-Adaptation/" class="resource" target="_blank">Webpage</a> / -->
               <!-- <a href="https://kaykobadreza.com/blog/mmp-towards-robust-multi-modal-learning-with-masked-modality-projection/" class="resource" target="_blank">Blog</a> / -->
               <!-- <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource">Slides</a> /  -->
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <!-- <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
@@ -116,14 +121,14 @@
             <span class="tldr summary">This tutorial provides a comprehensive overview of robust multimodal learning, covering foundational concepts, recent advancements, and open questions for future research.</span><br>
             <span class="venue">IEEE International Conference on Image Processing (ICIP), 2025</span><br>
             <!-- <span class="submitted">Under Review</span><br> -->
-            <div>
-              <a href="https://csiplab.github.io/icip2025_multimodal/" class="resource" target="_blank">Tutorial Webpage</a> / 
-              <a href="https://2025.ieeeicip.org/tutorials/#:~:text=Tutorial%209%3A%20(Half%2DDay)%20Foundations%20and%20Recent%20Trends%20in%20Robust%20Multimodal%20Learning" target="_blank">IEEE ICIP 2025 Website</a> 
+            <div class="paper-links">
+              <a href="https://csiplab.github.io/icip2025_multimodal/" class="resource" target="_blank">Tutorial Webpage</a>
+              <a href="https://2025.ieeeicip.org/tutorials/#:~:text=Tutorial%209%3A%20(Half%2DDay)%20Foundations%20and%20Recent%20Trends%20in%20Robust%20Multimodal%20Learning" class="resource" target="_blank">IEEE ICIP 2025 Website</a> 
               <!-- <a href="https://github.com/CSIPlab/Robust-multimodal-learning" class="resource" target="_blank">GitHub</a> /  -->
               <!-- <a href="https://csiplab.github.io/Missing-Modality-Adaptation/" class="resource" target="_blank">Webpage</a> / -->
               <!-- <a href="https://kaykobadreza.com/blog/mmp-towards-robust-multi-modal-learning-with-masked-modality-projection/" class="resource" target="_blank">Blog</a> / -->
               <!-- <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource">Slides</a> /  -->
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <!-- <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
@@ -144,14 +149,14 @@
             <span class="tldr summary">Proposed Cross-Modal Proxy Tokens (CMPTs) with low-rank adapters to enhance missing modality robustness of multimodal models, outperforming state-of-the-art baselines across five datasets.</span><br>
             <span class="venue">Transactions on Machine Learning Research (TMLR), 2025</span><br>
             <!-- <span class="submitted">Under Review</span><br> -->
-            <div>
-              <a href="https://openreview.net/forum?id=Wtc6wvcYJ0" class="resource" target="_blank">TMLR</a> / 
-              <a href="https://arxiv.org/abs/2501.17823" class="resource" target="_blank">arXiv</a> / 
-              <a href="https://github.com/CSIPlab/Cross-Modal-Proxy-Tokens" class="resource" target="_blank">GitHub</a> / 
-              <a href="https://csiplab.github.io/cross-modal-proxy-tokens/" class="resource" target="_blank">Webpage</a> /
+            <div class="paper-links">
+              <a href="https://openreview.net/forum?id=Wtc6wvcYJ0" class="resource" target="_blank">TMLR</a>
+              <a href="https://arxiv.org/abs/2501.17823" class="resource" target="_blank">arXiv</a>
+              <a href="https://github.com/CSIPlab/Cross-Modal-Proxy-Tokens" class="resource" target="_blank">GitHub</a>
+              <a href="https://csiplab.github.io/cross-modal-proxy-tokens/" class="resource" target="_blank">Webpage</a>
               <!-- <a href="https://kaykobadreza.com/blog/mmp-towards-robust-multi-modal-learning-with-masked-modality-projection/" class="resource" target="_blank">Blog</a> / -->
               <!-- <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource">Slides</a> /  -->
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
@@ -175,14 +180,14 @@
             <span class="tldr summary">Proposed Masked Modality Projection (MMP), which trains a single model to handle missing modalities by learning to project available inputs, improving robustness across various missing-modality scenarios.</span><br>
             <span class="venue">IEEE International Conference on Big Data (IEEE BigData), 2025</span><br>
             <!-- <span class="submitted">Under Review</span><br> -->
-            <div>
-              <a href="https://conferences.cis.um.edu.mo/ieeebigdata2025/accepted_papers.html#:~:text=BigD772-,MMP,-%3A%20Towards%20Robust%20Multi" class="resource" target="_blank">IEEE Big Data 2025</a> / 
-              <a href="https://arxiv.org/abs/2410.03010" class="resource" target="_blank">arXiv</a> / 
+            <div class="paper-links">
+              <a href="https://conferences.cis.um.edu.mo/ieeebigdata2025/accepted_papers.html#:~:text=BigD772-,MMP,-%3A%20Towards%20Robust%20Multi" class="resource" target="_blank">IEEE Big Data 2025</a>
+              <a href="https://arxiv.org/abs/2410.03010" class="resource" target="_blank">arXiv</a>
               <!-- <a href="https://github.com/CSIPlab/Robust-multimodal-learning" class="resource" target="_blank">GitHub</a> /  -->
               <!-- <a href="https://csiplab.github.io/Missing-Modality-Adaptation/" class="resource" target="_blank">Webpage</a> / -->
-              <a href="https://kaykobadreza.com/blog/mmp-towards-robust-multi-modal-learning-with-masked-modality-projection/" class="resource" target="_blank">Blog</a> /
+              <a href="https://kaykobadreza.com/blog/mmp-towards-robust-multi-modal-learning-with-masked-modality-projection/" class="resource" target="_blank">Blog</a>
               <!-- <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource">Slides</a> /  -->
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
@@ -203,14 +208,14 @@
             <span class="tldr summary">Proposed proxy tokens combined with low-rank adapters to infer missing modality features from the available ones, thereby improving robustness across diverse missing-modality scenarios.</span><br>
             <span class="venue">Asilomar Conference on Signals, Systems, and Computers (Asilomar), 2025</span><br>
             <!-- <span class="submitted">Under Review</span><br> -->
-            <div>
-              <a href="https://cmsworkshops.com/Asilomar2025/papers/accepted_papers.php#:~:text=and%20Computer%20Vision-,1566,-Multimodal%20Learning%20with" class="resource" target="_blank">Asilomar 2025</a> / 
-              <a href="https://arxiv.org/abs/2501.17823" class="resource" target="_blank">arXiv</a> / 
-              <a href="https://github.com/CSIPlab/Cross-Modal-Proxy-Tokens" class="resource" target="_blank">GitHub</a> / 
-              <a href="https://csiplab.github.io/cross-modal-proxy-tokens/" class="resource" target="_blank">Webpage</a> /
+            <div class="paper-links">
+              <a href="https://cmsworkshops.com/Asilomar2025/papers/accepted_papers.php#:~:text=and%20Computer%20Vision-,1566,-Multimodal%20Learning%20with" class="resource" target="_blank">Asilomar 2025</a>
+              <a href="https://arxiv.org/abs/2501.17823" class="resource" target="_blank">arXiv</a>
+              <a href="https://github.com/CSIPlab/Cross-Modal-Proxy-Tokens" class="resource" target="_blank">GitHub</a>
+              <a href="https://csiplab.github.io/cross-modal-proxy-tokens/" class="resource" target="_blank">Webpage</a>
               <!-- <a href="https://kaykobadreza.com/blog/mmp-towards-robust-multi-modal-learning-with-masked-modality-projection/" class="resource" target="_blank">Blog</a> / -->
               <!-- <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource">Slides</a> /  -->
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
@@ -234,14 +239,14 @@
             <span class="authors">Md Kaykobad Reza, Ashley Prater-Bennette, M. Salman Asif</span><br>
             <span class="tldr summary">Proposed a parameter-efficient adaptation method that enhances missing-modality performance of multimodal models and is applicable to diverse modality combinations, datasets, and tasks.</span><br>
             <span class="venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024</span><br>
-            <div>
-              <a href="https://ieeexplore.ieee.org/document/10713849" class="resource" target="_blank">IEEE TPAMI</a> / 
-              <a href="https://arxiv.org/abs/2310.03986" class="resource" target="_blank">arXiv</a> / 
+            <div class="paper-links">
+              <a href="https://ieeexplore.ieee.org/document/10713849" class="resource" target="_blank">IEEE TPAMI</a>
+              <a href="https://arxiv.org/abs/2310.03986" class="resource" target="_blank">arXiv</a>
               <!-- <a href="https://github.com/CSIPlab/Robust-multimodal-learning" class="resource" target="_blank">GitHub</a> /  -->
-              <a href="https://csiplab.github.io/Missing-Modality-Adaptation/" class="resource" target="_blank">Webpage</a> /
-              <a href="https://kaykobadreza.com/blog/parameter-efficient-adaptation-for-robust-mml/" class="resource" target="_blank">Blog</a> /
+              <a href="https://csiplab.github.io/Missing-Modality-Adaptation/" class="resource" target="_blank">Webpage</a>
+              <a href="https://kaykobadreza.com/blog/parameter-efficient-adaptation-for-robust-mml/" class="resource" target="_blank">Blog</a>
               <!-- <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource">Slides</a> /  -->
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
@@ -265,14 +270,14 @@
             <span class="authors">Md Kaykobad Reza, Ashley Prater-Bennette, M. Salman Asif</span><br>
             <span class="tldr summary">Proposed a novel fusion strategy and model for multimodal material and semantic segmentation that outperforms state-of-the-art models across all modality combinations.</span><br>
             <span class="venue">IEEE Open Journal of Signal Processing (OJSP), 2024</span><br>
-            <div>
-              <a href="https://ieeexplore.ieee.org/document/10502124" class="resource" target="_blank">IEEE OJSP</a> / 
-              <a href="https://arxiv.org/abs/2309.04001" class="resource" target="_blank">arXiv</a> / 
-              <a href="https://csiplab.github.io/MMSFormer/" class="resource" target="_blank">Webpage</a> /
-              <a href="https://github.com/CSIPlab/MMSFormer" class="resource" target="_blank">Code</a> / 
-              <a href="https://kaykobadreza.com/blog/mmsformer-for-multimodal-segmentation/" class="resource" target="_blank">Blog</a> /
+            <div class="paper-links">
+              <a href="https://ieeexplore.ieee.org/document/10502124" class="resource" target="_blank">IEEE OJSP</a>
+              <a href="https://arxiv.org/abs/2309.04001" class="resource" target="_blank">arXiv</a>
+              <a href="https://csiplab.github.io/MMSFormer/" class="resource" target="_blank">Webpage</a>
+              <a href="https://github.com/CSIPlab/MMSFormer" class="resource" target="_blank">Code</a>
+              <a href="https://kaykobadreza.com/blog/mmsformer-for-multimodal-segmentation/" class="resource" target="_blank">Blog</a>
               <!-- <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource">Slides</a> /  -->
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
@@ -298,14 +303,14 @@
             <span class="tldr summary">Proposed a training-free model merging framework, SSAM, that unifies independently trained specialist MLLMs with different input modalities into a single model capable of handling any combination of input modalities.</span><br>
             <!-- <span class="venue">CVPR 2026</span><br> -->
             <span class="submitted">Under Review</span><br>
-            <div>
+            <div class="paper-links">
               <!-- <a href="https://2026.eacl.org/program/findings-accepted/" class="resource" target="_blank">EACL 2026</a>   -->
-              <a href="https://arxiv.org/abs/2603.21584" class="resource" target="_blank">arXiv</a> / 
+              <a href="https://arxiv.org/abs/2603.21584" class="resource" target="_blank">arXiv</a>
               <!-- <a href="https://github.com/CSIPlab/Robust-multimodal-learning" class="resource" target="_blank">GitHub</a> /  -->
               <!-- <a href="https://csiplab.github.io/Missing-Modality-Adaptation/" class="resource" target="_blank">Webpage</a> / -->
               <!-- <a href="https://kaykobadreza.com/blog/mmp-towards-robust-multi-modal-learning-with-masked-modality-projection/" class="resource" target="_blank">Blog</a> / -->
               <!-- <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource">Slides</a> /  -->
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
@@ -326,14 +331,14 @@
             <span class="tldr summary">Proposed the first end-to-end pipeline to summarize Bengali academic videos and a new dataset to generate timestamped summaries and titles, enhancing accessibility for a low-resource language.</span><br>
             <span class="venue">Findings of EACL 2026</span><br>
             <!-- <span class="submitted">Under Review</span><br> -->
-            <div>
-              <a href="https://aclanthology.org/2026.findings-eacl.348/" class="resource" target="_blank">EACL 2026</a> / 
+            <div class="paper-links">
+              <a href="https://aclanthology.org/2026.findings-eacl.348/" class="resource" target="_blank">EACL 2026</a>
               <!-- <a href="https://arxiv.org/abs/2501.17823" class="resource" target="_blank">arXiv</a> /  -->
               <!-- <a href="https://github.com/CSIPlab/Robust-multimodal-learning" class="resource" target="_blank">GitHub</a> /  -->
               <!-- <a href="https://csiplab.github.io/Missing-Modality-Adaptation/" class="resource" target="_blank">Webpage</a> / -->
               <!-- <a href="https://kaykobadreza.com/blog/mmp-towards-robust-multi-modal-learning-with-masked-modality-projection/" class="resource" target="_blank">Blog</a> / -->
               <!-- <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource">Slides</a> /  -->
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
@@ -355,14 +360,14 @@
             <span class="tldr summary">Proposed a multimodal model that improves Martian landslide segmentation by separately encoding and effectively fusing RGB and geophysical data, achieving strong performance despite limited labeled samples.</span><br>
             <span class="venue">22nd Perception Beyond the Visible Spectrum Workshop (IEEE PBVS) @ CVPR 2026</span><br>
             <!-- <span class="submitted">Under Review</span><br> -->
-            <div>
+            <div class="paper-links">
               <!-- <a href="https://aclanthology.org/2026.findings-eacl.348/" class="resource" target="_blank">EACL 2026</a> /  -->
-              <a href="https://arxiv.org/abs/2603.14132" class="resource" target="_blank">arXiv</a> / 
+              <a href="https://arxiv.org/abs/2603.14132" class="resource" target="_blank">arXiv</a>
               <!-- <a href="https://github.com/CSIPlab/Robust-multimodal-learning" class="resource" target="_blank">GitHub</a> /  -->
               <!-- <a href="https://csiplab.github.io/Missing-Modality-Adaptation/" class="resource" target="_blank">Webpage</a> / -->
               <!-- <a href="https://kaykobadreza.com/blog/mmp-towards-robust-multi-modal-learning-with-masked-modality-projection/" class="resource" target="_blank">Blog</a> / -->
               <!-- <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource">Slides</a> /  -->
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
@@ -383,14 +388,14 @@
             <span class="tldr summary">Developed a graph-based approach to model and analyze social media user interactions, revealing key insights into community dynamics, user behavior, and content preferences.</span><br>
             <span class="venue">27th International Conference on Computer and Information Technology (ICCIT), 2024</span><br>
             <!-- <span class="submitted">Under Review</span><br> -->
-            <div>
-              <a href="https://ieeexplore.ieee.org/document/11022085" class="resource" target="_blank">ICCIT 2024</a> / 
-              <a href="https://arxiv.org/abs/2403.15937" class="resource" target="_blank">arXiv</a> / 
-              <!-- <a href="https://github.com/CSIPlab/Robust-multimodal-learning" class="resource" target="_blank">GitHub</a> / 
-              <a href="https://csiplab.github.io/Missing-Modality-Adaptation/" class="resource" target="_blank">Webpage</a> /
+            <div class="paper-links">
+              <a href="https://ieeexplore.ieee.org/document/11022085" class="resource" target="_blank">ICCIT 2024</a>
+              <a href="https://arxiv.org/abs/2403.15937" class="resource" target="_blank">arXiv</a>
+              <!-- <a href="https://github.com/CSIPlab/Robust-multimodal-learning" class="resource" target="_blank">GitHub</a>
+              <a href="https://csiplab.github.io/Missing-Modality-Adaptation/" class="resource" target="_blank">Webpage</a>
               <a href="https://kaykobadreza.com/blog/parameter-efficient-adaptation-for-robust-mml/" class="resource" target="_blank">Blog</a> / -->
               <!-- <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource">Slides</a> /  -->
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
@@ -415,14 +420,14 @@
             <span class="tldr summary">Introduced a basin-wide groundwater level forecasting model that combines transfer learning with LSTM to improve predictive performance across diverse hydrogeological regions.</span><br>
             <span class="venue">Hydrological Sciences Journal (HSJ), 2025</span><br>
             <!-- <span class="submitted">Under Review</span><br> -->
-            <div>
-              <a href="https://www.tandfonline.com/doi/full/10.1080/02626667.2025.2530120" class="resource" target="_blank">Hydrological Sciences Journal</a> / 
+            <div class="paper-links">
+              <a href="https://www.tandfonline.com/doi/full/10.1080/02626667.2025.2530120" class="resource" target="_blank">Hydrological Sciences Journal</a>
               <!-- <a href="https://arxiv.org/abs/2501.17823" class="resource" target="_blank">arXiv</a> /  -->
               <!-- <a href="https://github.com/CSIPlab/Robust-multimodal-learning" class="resource" target="_blank">GitHub</a> /  -->
               <!-- <a href="https://csiplab.github.io/Missing-Modality-Adaptation/" class="resource" target="_blank">Webpage</a> / -->
               <!-- <a href="https://kaykobadreza.com/blog/mmp-towards-robust-multi-modal-learning-with-masked-modality-projection/" class="resource" target="_blank">Blog</a> / -->
               <!-- <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource">Slides</a> /  -->
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
@@ -449,11 +454,11 @@
             <span class="authors">Md Kaykobad Reza, Rifat Rubayatul Islam, Sadik Siddique, Md Mostofa Akbar, M Sohel Rahman</span><br>
             <span class="tldr summary">Proposed an algorithm that automatically generates summaries and outperforms traditional methods.</span><br>
             <span class="venue">International Joint Conference on Computational Intelligence (IJCCI), 2019</span><br>
-            <div>
-              <a href="https://link.springer.com/chapter/10.1007/978-981-15-3607-6_47" class="resource" target="_blank">IJCCI Paper</a> / 
-              <a href="https://drive.google.com/file/d/15inP6zLSb-FT5QK77619_ur81gvaRCbi/view?usp=sharing" class="resource" target="_blank">PDF</a> / 
-              <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource" target="_blank">Slides</a> / 
-              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a> / 
+            <div class="paper-links">
+              <a href="https://link.springer.com/chapter/10.1007/978-981-15-3607-6_47" class="resource" target="_blank">IJCCI Paper</a>
+              <a href="https://drive.google.com/file/d/15inP6zLSb-FT5QK77619_ur81gvaRCbi/view?usp=sharing" class="resource" target="_blank">PDF</a>
+              <a href="https://docs.google.com/presentation/d/1msUixesbSYdY6LmSVvjGf3Fu8DURXhiI/edit?usp=sharing&amp;ouid=112748313282950972238&amp;rtpof=true&amp;sd=true" class="resource" target="_blank">Slides</a>
+              <!-- <a href="https://github.com/CSIPlab/context-aware-attacks/blob/main/doc/poster.pdf" class="resource">poster</a>
               <a href="https://aaai-2022.virtualchair.net/poster_aaai6996" class="resource">talk</a> / -->
               <a href="#" class="resource" role="button" onclick="var b=this.parentNode.querySelector('.bibref');b.style.display=(b.style.display==='block')?'none':'block';return false;">Cite</a>
               <div class="bibref pre-white-space">
