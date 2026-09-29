@@ -20,12 +20,12 @@
   font-size: 15px
 } */
 
-papertitle {
+.papertitle {
   font-size: 16px;
   font-weight: bold;
 }
 
-venue {
+.venue {
   font-size: 14px;
   font-weight: bold;
   /* color: #01796F */
@@ -33,7 +33,7 @@ venue {
   /* color: #f85151 */
 }
 
-submitted {
+.submitted {
   font-size: 14px;
   font-weight: bold;
   /* color: #01796F */
@@ -41,7 +41,7 @@ submitted {
   /* color: #f85151 */
 }
 
-tdlr {
+.summary {
   font-style: italic;
 }
 
