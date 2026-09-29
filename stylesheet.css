@@ -107,7 +107,7 @@ h2.c-post__title::after { content: ""; flex: 1; height: 1px; background: var(--l
   box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--accent), var(--shadow);
 }
 .c-content p { text-align: left !important; }
-.c-content p[style*="center"] { color: var(--muted); font-size: 13px; margin-top: 32px; }
+.c-content p[style*="center"] { text-align: center !important; color: var(--muted); font-size: 13px; margin-top: 32px; }
 
 .news { list-style: none; margin: 0 0 12px; padding: 0; }
 .news li { display: grid; grid-template-columns: 84px 1fr; gap: 0 16px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 15px; }
@@ -217,5 +217,10 @@ div.paper > li { margin: 0 0 6px 20px; }
   .news li { grid-template-columns: 1fr; gap: 0; padding: 9px 0; }
   .c-header__inner .o-grid { gap: 6px 0; }
   .c-header__inner .o-grid__col { width: 100%; }
-  .site-nav { justify-content: flex-start; }
+  .site-nav { justify-content: space-between; flex-wrap: nowrap; gap: 0; font-size: 13.5px; margin: 0 -8px; }
+  .site-nav a { padding: 5px 8px; white-space: nowrap; }
+}
+@media (max-width: 22.5em) {
+  .site-nav { font-size: 12.5px; }
+  .site-nav a { padding: 5px 5px; }
 }
